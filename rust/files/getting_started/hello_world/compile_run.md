@@ -1,5 +1,4 @@
-After finishing to write a program, there is two steps before 'using' it.
-The first one is *compiling* and the next one is *executing*.
+A Rust program has to be compiled, and the compiled code must be executed.
 
 Compiling is translating all the code into a file that the machine can read.
 Executing is telling the machine to use the compiled file.
