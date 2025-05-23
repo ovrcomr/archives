@@ -1,6 +1,6 @@
 <br>
 
-On *macOs*, open the terminal and use :
+On UNIX systems, open the terminal and use :
 
 ```bash
 $ curl --proto '=https' --tlsv1.3 https://sh.rustup.rs -sSf | sh
@@ -19,4 +19,17 @@ need a C compiler. Install a C compiler using :
 
 ```bash
 $ xcode-select --install
+```
+
+--- 
+
+On Windows, open this link and install [Visual Studio Buils Tools](https://visualstudio.microsoft.com/fr/visual-cpp-build-tools/).
+Then, install [Rust](https://www.rust-lang.org/tools/install), launch the downloaded file, and follow the few last instructions.
+
+---
+
+To verify if Rust is well installed, use :
+
+```bash
+rustc --version
 ```
