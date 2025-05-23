@@ -1,8 +1,4 @@
-According to the [previous step](./creating_project_directory.md), a directory
-has been created to include the actual code.
-
-Create a new source file and name it `main.rs`.
-*Rust* file ends with the `.rs` file extension.
+Create a new source file and name it `main.rs`. *Rust* file ends with the `.rs` file extension.
 
 The conviention is, when the file name is multiple words, that they
 are spearated using underscores `_` (*e.g. hello_wolrd.rs*)
